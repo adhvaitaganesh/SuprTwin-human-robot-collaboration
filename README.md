@@ -7,7 +7,7 @@ The project pipeline is designed in three stages.
 * Second, Lego block detection and localization using HSV thresholding.
 * Third, Simulation of the whole assembly environment using Seimens RoboExpert.
 
-Module description : 
+**Module description : **
 
 **Human hand detection:**
 * Deep-learng based approch
