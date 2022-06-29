@@ -24,13 +24,14 @@ The project pipeline is designed in three stages.
 * Predics ID of the object which human is trying to grab.
 
 Camera systems composes of the following two unit: 
-**Lego Detection **
+
+**Lego Detection:**
 * Creation of HSV database and contour area database to detect Lego colour and Lego Label
 * Setting of Region of Interest to denote the Lego Block detection.
 * Create a Custom Mask to identify different Lego Blocks and find contours and center.
 * Create a dictionary of Lego blocks information containing Unit ID, Center, Depth, Lego Label, etc and compare with the dictionary after Human intervention to find missing IDs.
 
-**Assembly Area Perception **
+**Assembly Area Perception:**
 * Reusing HSV database and contour area database to detect Lego colour and Lego Label.
 * Setting of Region of Interest to denote the Assembly Area detection and collecting Depth maps before and after human intervention at every step.
 * Compare depth maps before and after human intervention to create a mask of newly added components and use contour detection.
