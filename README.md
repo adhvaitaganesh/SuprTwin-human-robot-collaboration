@@ -4,7 +4,7 @@ Repository containing code for better human-robot collaboration in an industrial
 **Project discription:**
 The project pipeline is designed in three stages. 
 * First, live detection and tracking of human hands using depth map obtained from Mircrosoft azure kinect-V2 camera.
-* Second, Lego block detection and localization using HSV thresholding.
+* Second, Lego block detection and localization using HSV thresholding and depth-based background substraction.
 * Third, Simulation of the whole assembly environment using Seimens RoboExpert.
 
 **Module description :**
